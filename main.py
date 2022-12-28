@@ -18,7 +18,7 @@ def main():
     command = input("TRACK> ")
     if str(command) == "03" or str(command) == "3":
         print("Opening Github...")
-        webbrowser.open("https://github.com/allenmcfallen")
+        webbrowser.open("https://github.com/antzombie")
         main()
     if str(command) == "02" or str(command) == "2":
         api_ip_url = "http://ip-api.com/json/"
